@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PrivacyActivity">
+   <LinearLayout
+       android:layout_margin="10dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <LinearLayout
+           android:orientation="vertical"
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textSize="@dimen/text_sizehead"
+               android:textColor="@color/black"
+               android:text="Our24 MART” Privacy Notice :"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:textSize="@dimen/text_size"
+               android:text="“Our24 MART” is committed to protecting your information.
+This privacy notice provides details about the information we collect about you,
+ how we use it and how we protect it."
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+       <LinearLayout
+           android:orientation="vertical"
+          android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textSize="@dimen/text_sizehead"
+               android:textColor="@color/black"
+               android:text="Information about Our24 MART :"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           <TextView
+               android:autoLink="email"
+               android:textSize="@dimen/text_size"
+               android:text="In this privacy notice reference to “Our24 MART” , “Our24 MART”, “we” or “us” are to Our24 MART (is the Proprietorship firm).
+This privacy policy provides details about the information we collected about you, how we can use and how we can protect it.
+If you have any clarification regarding this Privacy Policy fill free to contact us at :  info@Our24MART.com"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textSize="@dimen/text_sizehead"
+               android:textColor="@color/black"
+               android:text="What we collected form You ?"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:autoLink="email"
+                   android:textSize="@dimen/text_size"
+                   android:text="We collect the following Personally identifiable information about you, Name( Including First Name and last Name), E-mail, Mobile Number (For Telecommunication ) and Contact Details ( Including your Home and Office Address or where you live ), Postal Code, Demographic Profile( Like your Date of Birth, Gender, City)"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textSize="@dimen/text_sizehead"
+               android:textColor="@color/black"
+               android:text="Way to collect your Personal Information ?"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:textSize="@dimen/text_size"
+                   android:text="We obtain your Personal Information From You During Registration and confirmation Process From Our app."
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:textSize="@dimen/text_size"
+                   android:text=" •  We collect your information from the Contact Form on our mobile application and website."
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:autoLink="email"
+                   android:textSize="@dimen/text_size"
+                   android:text="•  We also collect your information from the E-mail.
+"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textSize="@dimen/text_sizehead"
+               android:textColor="@color/black"
+               android:text="How we use Your Information ?"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:textSize="@dimen/text_size"
+                   android:text="We will use personal information to provide personalized feature to you on the app and Website and to provide for Promotional offers to you through E-mail or other channels."
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:textSize="@dimen/text_size"
+                   android:text=" •  We will also Provide this information to our business associates and Partners."
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:autoLink="email"
+                   android:textSize="@dimen/text_size"
+                   android:text="•  We will not use your financial information for any Purpose other than to complete a transaction with you. "
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textSize="@dimen/text_sizehead"
+               android:textColor="@color/black"
+               android:text="Sharing Information ?"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:textSize="@dimen/text_size"
+                   android:text="We will share your information with “Our24 MART” , “Our24 MART” Partners and Other who help us Provides Services to you( e.g. Your accommodation Provider ).
+We share your information for the purposes set out in this privacy policy, with the following categories of recipients:"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:textSize="@dimen/text_size"
+                   android:text=" •  Our24 MART Partners"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:autoLink="email"
+                   android:textSize="@dimen/text_size"
+                   android:text="•  With our Delivery Partners( e.g. your, Name, Mobile Number, Address, Postal Code)."
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:autoLink="email"
+                   android:textSize="@dimen/text_size"
+                   android:text="•  Third Party Supplier Who Help us to Deliver Your Products or who Service our Behalf."
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:autoLink="email"
+                   android:textSize="@dimen/text_size"
+                   android:text="•  The general Public , If you submit Content in Public Form, Such as  blog comments on social media or other feature of our service that are obviously viewable by general public."
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:autoLink="email"
+                   android:textSize="@dimen/text_size"
+                   android:text="•	Third Parties Where we Have Duty are Permitted to disclose your Personal Information by law ( e.g. Law Enforcement Officials , Government authorities )."
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textSize="@dimen/text_sizehead"
+               android:textColor="@color/black"
+               android:text="Privacy Policy Update :"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:autoLink="email"
+                   android:textSize="@dimen/text_size"
+                   android:text="“Our24 MART” reserves the right to change or update this Privacy Policy at any time. Such changes shall be effective immediately upon posting to the Mobile Application and Website."
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textSize="@dimen/text_sizehead"
+               android:textColor="@color/black"
+               android:text="How can I Correct information ?"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:autoLink="email"
+                   android:textSize="@dimen/text_size"
+                   android:text="If you wish to correct or update any information you have provided, you may do so Using app, you may contact us to correct or update such information by sending an e-mail to: info@Our24MART.com"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+       </LinearLayout>
+   </LinearLayout>
+
+</ScrollView>

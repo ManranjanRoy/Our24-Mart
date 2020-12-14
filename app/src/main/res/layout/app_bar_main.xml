@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:visibility="visible"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:gravity="center_vertical"
+                        android:visibility="visible"
+                        android:text="@string/app_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:layout_margin="5dp"
+                        android:visibility="gone"
+                        android:src="@drawable/logo"
+                        android:layout_width="170dp"
+                        android:layout_height="50dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/cart"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/notification"
+                        android:clickable="true"
+                        android:layout_marginRight="8dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_notifications_black_24dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <RelativeLayout
+                        android:layout_marginRight="10dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="56dp">
+                        <LinearLayout
+                            android:paddingLeft="10dp"
+                            android:paddingBottom="20dp"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+                        <TextView
+                            android:layout_above="@id/aa"
+                            android:gravity="center"
+                            android:background="@drawable/redcircel"
+                            android:id="@+id/cartcount"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:text="0"
+                            android:textSize="12dp"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/aa"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/bag_icon"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:visibility="visible"
+            android:background="@color/colorPrimary"
+            android:id="@+id/searchlayout"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/serachtext"
+                android:gravity="center_vertical"
+                android:textSize="14dp"
+                android:layout_margin="5dp"
+                android:paddingLeft="20dp"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/black_transparent_60"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/search"
+                android:background="@drawable/search_border"
+                android:hint="Search for Products"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_main" />
+    <ImageView
+        android:id="@+id/fab"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/whatsapp" />
+</android.support.design.widget.CoordinatorLayout>

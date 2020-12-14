@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:textSize="@dimen/text_size"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/input"
+        android:text="Basmati rice (baz-mah-tee) is a type of white rice commonly grown in the Himalayas, India, and Pakistan—with India producing about two-thirds of the world's supply. It is a long-grain rice that is characterized by a light nutty flavor and floral aroma, and it's popular in rice pilaf and as a side dish for curry."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

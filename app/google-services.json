@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "345069933047",
+    "firebase_url": "https://our24-mart.firebaseio.com",
+    "project_id": "our24-mart",
+    "storage_bucket": "our24-mart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345069933047:android:c58a80c41d297c932f1ef2",
+        "android_client_info": {
+          "package_name": "com.manoranjan.applecart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345069933047-babpc2r5i17vsoe9s4hfkquonr5pf54t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy4sWJXSE2QDKVd6eVsv4eATs7NepGYQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345069933047-babpc2r5i17vsoe9s4hfkquonr5pf54t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

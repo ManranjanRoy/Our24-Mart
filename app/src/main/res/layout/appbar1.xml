@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <RelativeLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@id/back"
+                        android:src="@drawable/back"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/title"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_vertical"
+                        android:text="Category"
+                        android:scaleType="fitXY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/cart"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/search"
+                        android:clickable="true"
+                        android:layout_marginRight="3dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/searchwhite"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="56dp">
+                        <LinearLayout
+                            android:paddingLeft="10dp"
+                            android:paddingBottom="20dp"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_above="@id/aa"
+                                android:gravity="center"
+                                android:background="@drawable/redcircel"
+                                android:id="@+id/cartcount"
+                                android:layout_gravity="center_vertical"
+                                android:textColor="@color/white"
+                                android:text="0"
+                                android:textSize="12dp"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:id="@+id/aa"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/bag_icon"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+               <!-- <LinearLayout
+                    android:id="@+id/cart"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/search"
+                        android:clickable="true"
+                        android:layout_marginRight="3dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/searchwhite"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+                    <TextView
+                        android:gravity="center"
+                        android:background="@drawable/redcircel"
+                        android:id="@+id/cartcount"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:text="0"
+                        android:textSize="14dp"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp" />
+                    <ImageView
+                        android:layout_marginLeft="3dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bag_icon"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+                </LinearLayout>-->
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+</android.support.design.widget.CoordinatorLayout>

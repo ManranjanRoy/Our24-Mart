@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:fontFamily="@font/tenali_ramakrishna"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:fontFamily="@font/tenali_ramakrishna"
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="My Profile" />
+        <item
+            android:fontFamily="@font/tenali_ramakrishna"
+            android:id="@+id/nav_address"
+            android:icon="@drawable/location"
+            android:title="My Addresses" />
+        <item
+            android:fontFamily="@font/tenali_ramakrishna"
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/order"
+            android:title="My Orders" />
+        <item
+            android:fontFamily="@font/tenali_ramakrishna"
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/bag_icon"
+            android:title="My Cart" />
+        <item
+            android:fontFamily="@font/tenali_ramakrishna"
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/wallet"
+            android:title="My Wallet" />
+        <item
+            android:id="@+id/nav_catagory"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Shop By Category " />
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:fontFamily="@font/tenali_ramakrishna"
+                android:id="@+id/nav_aboutus"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@android:drawable/ic_lock_idle_low_battery"
+                android:title="Privacy &amp; Policy" />
+            <item
+                android:fontFamily="@font/tenali_ramakrishna"
+                android:id="@+id/nav_terms"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Term &amp; Conditions" />
+            <item
+                android:fontFamily="@font/tenali_ramakrishna"
+                android:id="@+id/nav_faqs"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="FAQ?" />
+            <item
+                android:fontFamily="@font/tenali_ramakrishna"
+                android:id="@+id/nav_support"
+                android:icon="@drawable/user"
+                android:title="Customer Support" />
+            <item
+                android:fontFamily="@font/tenali_ramakrishna"
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:fontFamily="@font/tenali_ramakrishna"
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

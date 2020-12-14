@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+            <ImageView
+                android:visibility="gone"
+                android:layout_margin="10dp"
+                android:id="@id/back"
+                android:src="@drawable/ic_back"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </RelativeLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Our24 MART - Apna Dukaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/textcolor"
+            android:layout_width="200dp"
+            android:layout_height="1dp"/>
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:justificationMode="inter_word"
+            android:text="Our24 MART, is a Kolkata Based Low Price Online Supermarket that provide its customer to order products across categories like Grocery, beverages, Snacks, Household items, daily needs products, Beauty care and Wellness Products, pet care and day-to-day requirements for our Customers and lots more. We have many partner stores that help us to provide best shopping experience for our customers. We have thousands of products listed which can fulfill the requirements of our customers at a very affordable low cost with less delivery time."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:justificationMode="inter_word"
+            android:text="Our Company uses its platform to deliver products straight from the marketplace to its customers, offering the lowest price in every city. We deliver the ordered products of the customers from their nearest kirana stores or grocery shops, through our delivery teams within minimum delivery time at affordable cost."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:justificationMode="inter_word"
+            android:text="Our application provides easy modes of payments like Debit/Credit Card, Netbanking, Online wallet or Cash-on-delivery. It also allows you to schedule your comfortable delivery slots.
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

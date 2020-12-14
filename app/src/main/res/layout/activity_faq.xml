@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#08000000"
+    tools:context=".Activity.FaqActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:visibility="gone"
+            android:padding="10dp"
+            android:background="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginTop="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/faqtext"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <ImageView
+                android:id="@id/back"
+                android:src="@drawable/ic_backfaq"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </RelativeLayout>
+<LinearLayout
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/faqtextcolor"
+                android:text="How Can I Register ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:text="U can login by either OTP send on your given mobile number or through email id and password."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/faqtextcolor"
+                android:text="Is There Any Charges For Registration?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:text="No, There is no any kind of charges at the time of registration."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/faqtextcolor"
+                android:text="Any Other Questions ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:autoLink="phone"
+                android:textColorLink="@color/faqtextcolor"
+                android:textSize="@dimen/text_size"
+                android:text="We are happy to help you.
+Contact us at our  \n Customer Support : +91 98306 11192
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/faqtextcolor"
+                android:text="Can I Have More Than One Aaccount?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:text="Each Mobile number or email id can be associated with Our24 MART account."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/faqtextcolor"
+                android:text="Can I cancel my order?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:text="Yes, you can cancel your order."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/faqtextcolor"
+                android:text="Is there any discount or Coupon?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:text="Yes, we offer a discount on every order value, which will be notified at the time of placing order."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/faqtextcolor"
+                android:text="Which payment methods do you take?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:text="We Accept PayTm And COD (cash on delivery). Debit and Credit cards (VISA/Mastercard/Rupay) will also be used."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

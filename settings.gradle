@@ -1,0 +1,2 @@
+rootProject.name='AppleCart'
+include ':app'

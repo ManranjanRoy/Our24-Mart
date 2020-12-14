@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.TermsconditionActivity">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:text="About “Our24 MART” , “Our24 MART”"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:text="In this reference to “Our24 MART” , “Our24 MART”, “we” or “us”,”our” are to Our24 MART(is the Proprietorship firm). Our24 MART is the Low Price Online Supermarket that provide its customer to order products across categories like Grocery, beverages, Snacks, Household items, daily needs products, Beauty care and Wellness Products, pet care and day-to-day requirements for our Customers and lots more.online Grocery store and Supermarket. We are currently available in Kolkata and Bangalore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:text="1. Using Our24 MART Account Registration and use "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:autoLink="email"
+                    android:textSize="@dimen/text_size"
+                    android:text="We collect the following Personally identifiable information about you, Name( Including First Name and last Name), E-mail, Mobile Number( For Telecommunication ) and Contact Details ( Including your Home and Office Address or where you live ), Postal Code, Demographic Profile( Like your Date of Birth,  Gender, City). \n
+“Our24 MART”,”Our24 MART”  Also allows resticated  to the “Our24 MART” platform for unregistered users.\n
+At the Time of registration , you shall ensure that the account information provided by you in the Our24 MART Platform registration form is complete, accurate and Up to date.\n
+Use of another user’s account information is expressly prohibited.\n
+"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:text="2. Eligibility to use"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:autoLink="email"
+                    android:textSize="@dimen/text_size"
+                    android:text="You must at least ( 18) years of age or above and capable to order using our app. Person who are IMCOMPETENT TO CONTRACT within the meaning of the INDIAN CONTRACT Act, 1872 including un-discharged years but at insolvents etc. are not eligible to use/access the Marketplace. If you are a minor i.e under the age of 18 years, you can access the marketplace under the supervision of an adult or Guardian who agrees to be bound by these terms of use."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:text="3. Pricing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:autoLink="email"
+                    android:textSize="@dimen/text_size"
+                    android:text="All the products used to site will be sold at MRP unless
+otherwise specified. The Price Mentioned at the Time Ordering will be same on
+the date of delivery. Although price of most of products do not fluctuate on
+daily basis but some of the commodities and fresh food prices do change on a daily basis. In case the prices are higher or lower on the date of delivery not additional charges will be collected or refunded as the case may be at the time of the delivery of the order.
+"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:text="4. Return and cancellation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:autoLink="phone"
+                    android:textSize="@dimen/text_size"
+                    android:text="“Our24 MART” Using “Our24 MART” app. We have 5-10 minute instant return policy if due to some reason customers are not satisfied with the quality or freshness of the product. We will take the returned product back with us and issue a credit note for or refund the value of the return products.\n
+Following Condition For accept return or You can Either return the products to the delivery personnel at the time of delivery or you can using the app on order section you can tap on Return &amp; cancel  or  you can contact our customer Support ( Call : +91 9830611192) team and we will do the needful.
+"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:text="5. Order Confirmation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:autoLink="email"
+                    android:textSize="@dimen/text_size"
+                    android:text="In Case of non-delivery of your order due to wrong information provided by you i.e. Mobile Number, Address, Pin code, etc. We may charge any extra re-delivery cost from you. "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:text="6. Coupon and Promotional code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:autoLink="email"
+                    android:textSize="@dimen/text_size"
+                    android:text="We offers a user promotional code or coupons for many user through E-mail or Sms or we update of app also. User can apply thier coupon code for one time only. We have maximum discount on products of ₹100 only.
+You can Purchase our promotional code from our app also.
+"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/text_sizehead"
+                android:textColor="@color/black"
+                android:text="7. Modification of T &amp; C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:autoLink="email"
+                    android:textSize="@dimen/text_size"
+                    android:text="Our24 MART can modify the Terms and Conditions of use of mobile application or website without prior notice to you. "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
